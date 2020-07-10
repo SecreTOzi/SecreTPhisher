@@ -275,7 +275,7 @@ rm -rf websites/$server/usernames.txt
 fi
 def_port="5555"
 printf "\e[0m\n"
-printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Bir Bağlantı Noktası Seçin  (Varsayılan:\e[0m\e[1;96m %s \e[0m\e[1;92m): \e[0m\e[1;96m' $def_port
+printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Bir Bağlantı Noktası Seçin  (Default:\e[0m\e[1;96m %s \e[0m\e[1;92m): \e[0m\e[1;96m' $def_port
 read port
 port="${port:-${def_port}}"
 start_serveo
@@ -348,7 +348,7 @@ found
 start_local(){
 def_port="5555"
 printf "\e[0m\n"
-printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Bir Bağlantı Noktası Seçin (Varsayılan:\e[0m\e[1;96m %s \e[0m\e[1;92m): \e[0m\e[1;96m' $def_port
+printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Bir Bağlantı Noktası Seçin (Default:\e[0m\e[1;96m %s \e[0m\e[1;92m): \e[0m\e[1;96m' $def_port
 read port
 port="${port:-${def_port}}"
 printf "\e[0m\n"
@@ -392,7 +392,7 @@ done
 start_l() {
 def_port="5555"
 printf "\e[0m\n"
-printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Bir Bağlantı Noktası Seçin (Varsayılan:\e[0m\e[1;96m %s \e[0m\e[1;92m): \e[0m\e[1;96m' $def_port
+printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Bir Bağlantı Noktası Seçin (Default:\e[0m\e[1;96m %s \e[0m\e[1;92m): \e[0m\e[1;96m' $def_port
 read port
 port="${port:-${def_port}}"
 printf "\e[0m\n"
