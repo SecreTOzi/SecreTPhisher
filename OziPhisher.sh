@@ -7,12 +7,12 @@ command -v unzip > /dev/null 2>&1 || { echo >&2 "Unzip Kurulu Değil Lütfen Kur
 }
 banner() {
 clear
-printf " \e[33;1m ______      _     _     _               \e[0m\n"
-printf " \e[33;1m|___  /     | |   (_)   | |              \e[0m\n"
-printf " \e[33;1m   / / _ __ | |__  _ ___| |__   ___ _ __ \e[0m\n"
-printf " \e[32;1m  / /\e[33;1m | '_ \| '_ \| / __| '_ \ / _ \ '__|\e[0m\n"
-printf " \e[32;1m / /__| |_) | | | | \__ \ | | |  __/ |   \e[0m\n"
-printf " \e[32;1m/_____| .__/|_| |_|_|___/_| |_|\___|_|   \e[0m\n"
+printf " \e[33;1m |||||||||||||_________   (.)            \e[0m\n"
+printf " \e[33;1m|            |      //     |             \e[0m\n"
+printf " \e[33;1m|            |     //      |             \e[0m\n"
+printf " \e[32;1m|   /\e[33;1m|    //       |             _ \ '__|\e[0m\n"
+printf " \e[32;1m|            |  //         |             \e[0m\n"
+printf " \e[32;1m||||||||||||||//_________  |             \e[0m\n"
 printf " \e[33;1m      | |                                \e[0m\n"
 printf " \e[33;1m      |_|           \e[1;97m    Version 2.0      \e[0m\n"
 printf " \n"
