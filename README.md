@@ -41,5 +41,6 @@ Ayarlama Seçenekleri :
 Beni BUL :
 
 [![Github](https://github.com/SecreTOzi)](https://github.com/SecreTOzi)
+-------------------------------------------------------------------------------------
 [![Instagram](https://www.instagram.com/byyozzi/)](https://www.instagram.com/byyozzi)
 
