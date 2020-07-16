@@ -1,6 +1,6 @@
 # SecreTPhisher
 
-##Installation :
+##KURULUM :
 
 apt update
 
@@ -12,12 +12,12 @@ cd SecreTPhisher
 
 > Run : bash OziPhisher.sh
 
-Single Command :
+Tek Komut :
 
 apt update ; apt install git curl php openssh -y ; git clone git://github.com/SecreTOzi/SecreTPhisher ; cd SecreTPhisher ; bash OziPhisher.sh
 
  
-<<< Eğer kopyalarsan, o zaman bana Kredi Ver >>>
+<<< Eğer kopyalarsan, o zaman bana Kredi Ver Bladerrr:))!!!!! >>>
 
 Özellikleri :
 
@@ -27,7 +27,7 @@ apt update ; apt install git curl php openssh -y ; git clone git://github.com/Se
 [+] Yeni Başlayanlar İçin Kolay !
 -----------------------------------
 Ayarlama Seçenekleri :
-> Localhost (127.0.0.1)
+> Localhost ('!!!!')
 
 > NGROK (https://ngrok.com)
 
@@ -35,7 +35,7 @@ Ayarlama Seçenekleri :
 
 > LOCALHOSTRUN (https://localhost.run)
 
-Find Me on :
+Beni BUL :
 
 [![Github](https://github.com/SecreTOzi)](https://github.com/SecreTOzi)
 [![Instagram](https://www.instagram.com/byyozzi/)](https://www.instagram.com/byyozzi)
