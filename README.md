@@ -38,9 +38,9 @@ Ayarlama Seçenekleri :
 
 > LOCALHOSTRUN (https://localhost.run)
 
-Beni BUL :
-
-[![Github](https://github.com/SecreTOzi)](https://github.com/SecreTOzi)
+###Beni BUL :
 -------------------------------------------------------------------------------------
 [![Instagram](https://www.instagram.com/byyozzi/)](https://www.instagram.com/byyozzi)
-
+-------------------------------------------------------------------------------------
+[![Github](https://github.com/SecreTOzi)](https://github.com/SecreTOzi)
+-------------------------------------------------------------------------------------
