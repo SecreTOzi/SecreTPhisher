@@ -7,14 +7,24 @@ command -v unzip > /dev/null 2>&1 || { echo >&2 "Unzip Kurulu Değil Lütfen Kur
 }
 banner() {
 clear
-printf " \e[33;1m||||||||||||||||                   (::) P  \e[0m\n"
-printf " \e[33;1m||            ||/_/_/_/_/_/_/           H  \e[0m\n"
-printf " \e[33;1m||            ||         /O/        ||  İ  \e[0m\n"
-printf " \e[32;1m||   /\e[33;1m||        /Z/         ||  S  \e[0m\n"
-printf " \e[32;1m||            ||       /İ/          ||  H  \e[0m\n"
-printf " \e[32;1m||||||||||||||||     /16//_/_/_/_/_/|| E R \e[0m\n"
-printf " \e[33;1m [VARLIĞIM TÜRK VARLIĞINA ARMAĞAN OLSUN!]  \e[0m\n"
-printf " \e[33;1m                    \e[1;97m    Version 2.0      \e[0m\n"
+echo -e '\033[31;40;1m 
+	
+▓██   ██▓ ▄▄▄        ██████  █    ██  ▒█████  
+ ▒██  ██▒▒████▄    ▒██    ▒  ██  ▓██▒▒██▒  ██▒
+  ▒██ ██░▒██  ▀█▄  ░ ▓██▄   ▓██  ▒██░▒██░  ██▒
+  ░ ▐██▓░░██▄▄▄▄██   ▒   ██▒▓▓█  ░██░▒██   ██░
+  ░ ██▒▓░ ▓█   ▓██▒▒██████▒▒▒▒█████▓ ░ ████▓▒░
+   ██▒▒▒  ▒▒   ▓▒█░▒ ▒▓▒ ▒ ░░▒▓▒ ▒ ▒ ░ ▒░▒░▒░ 
+ ▓██ ░▒░   ▒   ▒▒ ░░ ░▒  ░ ░░░▒░ ░ ░   ░ ▒ ▒░ 
+ ▒ ▒ ░░    ░   ▒   ░  ░  ░   ░░░ ░ ░ ░ ░ ░ ▒  
+ ░ ░           ░  ░      ░     ░         ░ ░  
+ ░ ░                                          
+	   \e[35m☾★ ☾★ ☾★ ☾★ Mr.Neowise ☾★ ☾★ ☾★ ☾★	
+	 \e[31m☾★ ☾★ ☾★ ☾★ Turkish CYber ☾★ ☾★ ☾★ ☾★	
+  \e[32m☾★ ☾★ ☾★ ☾★ İnstagram : @anonymous ☾★ ☾★ ☾★ ☾★	
+'
+echo -e '
+
 printf " \n"
 printf " \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Cyber TÜRK Hacker SecreTOzi TARAFINDAN[@byyozzi]\e[0m\n"
 printf " \n"
