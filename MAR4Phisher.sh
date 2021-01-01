@@ -8,7 +8,7 @@ command -v unzip > /dev/null 2>&1 || { echo >&2 "Unzip Kurulu Değil Lütfen Kur
 banner() {
 clear
 printf " \e[33;1m
-                                        **
+                                         **
                       ▒█████  ▒███████▒ ██▓
                      ▒██▒  ██▒▒ ▒ ▒ ▄▀░▓██▒
                      ▒██░  ██▒░ ▒ ▄▀▒░ ▒██▒
