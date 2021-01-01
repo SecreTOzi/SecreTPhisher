@@ -20,12 +20,7 @@ printf " \e[33;1m
                          ░ ░    ░ ░     ░  
                                  ░             
                                                              \e[0m\n"
-printf " \e[33;1M                                                                                                     
-                                                                                 \e[0m\n"
-printf " \e[33;1m                                                                \e[0m\n"
-printf " \e[32;1m                                                                \e[0m\n"
-printf " \e[32;1m                                                                \e[0m\n"
-printf " \e[32;1m                                                                \e[0m\n"
+
 printf " \e[33;1m [ ☪ VARLIĞIM TÜRK VARLIĞINA ARMAĞAN OLSUN! ☪ ]  \e[0m\n"
 printf " \e[33;1m İletişim = İnstagram : @byyozzi            \e[0m\n"
 printf " \e[33;1m                    \e[1;97m    ☪ Oğuz TÜRK ☪      \e[0m\n"
